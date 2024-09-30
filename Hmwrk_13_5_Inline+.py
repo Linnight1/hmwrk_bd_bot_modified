@@ -13,7 +13,7 @@ button2 = KeyboardButton(text="Купить")
 button_reg = KeyboardButton(text="Регистрация")
 kb.row(button, button2, button_reg)
 
-api = "5412904149:AAGXoOUqrWssdivh_vpHqVINY1jA1bYxYD8"
+api = ""
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 kb_2 = InlineKeyboardMarkup()
